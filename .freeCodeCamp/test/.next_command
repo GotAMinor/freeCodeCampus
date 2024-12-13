@@ -143,3 +143,9 @@ git init
 git add -all
 git add --all
 git commit -a -m "sumbit"
+git push
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/GotAMinor/freeCodeCampus.git
+git add --all
+git commit -a -m "solution submit"
